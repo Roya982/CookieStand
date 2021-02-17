@@ -1,6 +1,4 @@
 'use strict';
-
-'use strict';
 function getRandomNumber(min, max) {
   return Math.floor(Math.random() * (max - min + 1) + min);
 }
@@ -37,8 +35,6 @@ const seattle={
   },
 
 };
-seattle.cookiePurnchCust();
-seattle.render();
 
 const tokyo={
   location: 'Tokyo',
@@ -72,8 +68,6 @@ const tokyo={
   },
 
 };
-tokyo.cookiePurnchCust();
-tokyo.render();
 
 const dubai={
   location: 'Dubai',
@@ -105,10 +99,8 @@ const dubai={
       liEl.textContent=`${this.workHours[i]}:${this.hourSales[i]}`;
     }
   },
-
 };
-dubai.cookiePurnchCust();
-dubai.render();
+
 
 const paris={
   location: 'Paris',
@@ -142,8 +134,6 @@ const paris={
   },
 
 };
-paris.cookiePurnchCust();
-paris.render();
 
 const lima={
   location: 'Lima',
@@ -175,7 +165,15 @@ const lima={
       liEl.textContent=`${this.workHours[i]}:${this.hourSales[i]}`;
     }
   },
-
 };
+
+seattle.cookiePurnchCust();
+tokyo.cookiePurnchCust();
+dubai.cookiePurnchCust();
+paris.cookiePurnchCust();
 lima.cookiePurnchCust();
+seattle.render();
+tokyo.render();
+dubai.render();
+paris.render();
 lima.render();

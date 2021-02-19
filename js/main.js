@@ -89,22 +89,21 @@ function renderFooterTotals(){
     tableRow.appendChild(tableHeadingEl);
     tableHeadingEl.textContent = Math.ceil(totalTotals[i]);
   }
-  const newSales = document.getElementById('newSales');
-  newSales.addEventListener('submit', function(event){
-    event.preventDefault();
-    const location = event.target.location.value;
-    const minCus = event.target.minCus.value;
-    const maxCus = event.target.maxCus.value;
-    const average = event.target.average.value;
-    const newLocation = new Sales(location,minCus,maxCus,average);
-    newLocation.render();
-  });
 }
 renderHeader();
+const newSales = document.getElementById('newSales');
+newSales.addEventListener('submit', function(event){
+  event.preventDefault();
+  const location = event.target.location.value;
+  const minCus = event.target.minCus.value;
+  const maxCus = event.target.maxCus.value;
+  const average = event.target.average.value;
+  const newLocation = new Sales(location,minCus,maxCus,average);
+  newLocation.render();
+  renderFooterTotals();
+});
 seattle.render();
 tokyo.render();
 dubai.render();
 paris.render();
 lima.render();
-renderFooterTotals();
-

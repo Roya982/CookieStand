@@ -1,6 +1,55 @@
+#sale-page{
+  background-color: #A2FAAF;
+}
+#sinfo{
+  text-align: center;
+  font-size: xx-large;
+  margin: 20px;
+  font-family: 'Akaya Kanadaka', cursive;
+  color: #ba4548;
+}
+#newSales{
+  margin: 20px;
+  background-color: #ba4548;
+  width: 100%;
+  padding: 15px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: 'Lemonada', cursive; 
+  font-size: small;
+  color: #A2FAAF;
+}
+input{
+  width: 30%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+fieldset:last-child{
+  text-align: center;
+  color: #A2FAAF;
+}
+ 
 table,tr,td,th {
-  border: 1px solid black;
-  padding: 5px;
-  margin: 5px;
+  border: 2px solid #ba4548;
+  padding: 10px;
+  margin: 20px;
   padding-top: 12px; 
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  overflow:hidden;
+  border-radius: 10px;
+  box-shadow: #666 0px 2px 3px;
+  behavior: url(Include/PIE.htc);
+  overflow: hidden;
+  background-color: #fadca2;
+  color: #5a92fa;
+  font-weight: bold;
 }

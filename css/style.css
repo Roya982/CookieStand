@@ -1,5 +1,5 @@
 #sale-page{
-  background-color: #A2FAAF;
+  background-color: #0E5C66;
 }
 #sinfo{
   text-align: center;
@@ -7,6 +7,7 @@
   margin: 20px;
   font-family: 'Akaya Kanadaka', cursive;
   color: #ba4548;
+  text-shadow: 2px 2px 5px red;
 }
 #newSales{
   margin: 20px;
@@ -20,7 +21,7 @@
   box-sizing: border-box;
   font-family: 'Lemonada', cursive; 
   font-size: small;
-  color: #A2FAAF;
+  color: #0E5C66;
 }
 input{
   width: 30%;
@@ -34,9 +35,9 @@ input{
 
 fieldset:last-child{
   text-align: center;
-  color: #A2FAAF;
+  color:#66180E;
 }
- 
+
 table,tr,td,th {
   border: 2px solid #ba4548;
   padding: 10px;
@@ -52,4 +53,29 @@ table,tr,td,th {
   background-color: #fadca2;
   color: #5a92fa;
   font-weight: bold;
+  text-align: center;   
+}
+
+#simg{
+  text-align: center;
+  box-shadow: 0 0 50px #fadca2;
+  margin: 20px;
+  border-radius: 75px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+#mpage{
+  text-align: center;
+  font-family: 'Akaya Kanadaka', cursive;
+  font-size: xx-large;
+}
+a{
+  text-decoration: none;
+  color: #66180E; 
+}
+a:hover{
+  text-decoration: underline;
 }

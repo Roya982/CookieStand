@@ -1,3 +1,79 @@
+#mainpage{
+  background-image: url(https://cdn.wallpapersafari.com/4/9/OK6Dzo.jpg);
+}
+#mainhr{
+  text-align: center;
+  background-image: url(/img/background.jpg);
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#mainhr h1{
+  font-size: xx-large;
+  float: left;
+  margin-left: 50px;
+  color: #fad487;
+  font-family: 'Ballet', cursive;
+  margin-top: 45px;
+  font-weight: bold;
+}
+
+#mainhr nav ul li{
+  float: right;
+  display: inline-block;
+  padding: 30px;
+}
+
+#subtitle{
+  text-align: center;
+  font-size: xx-large;
+  font-style: oblique;
+  color: #f5c970;
+  margin: 20px;
+}
+
+#mainhr nav ul li a{
+  color: #f5c970;
+  font-style: oblique;
+}
+
+#affiliates ol li{
+  list-style: lower-greek;
+  margin: 20px;
+  color: #094c55;
+  font-weight: bolder;
+  font-style: oblique;
+  text-shadow:2px 2px 5px #f5c970;
+  font-size: large;
+}
+
+#stsec{
+   float: right; 
+  width: 50%;
+  text-align: center;
+  background-color: #0E5C66;
+  margin: 10px;
+}
+.intro{
+  color: #f5c970;
+  font-size: larger;
+  font-weight: lighter;
+  line-height: 2;
+  font-style: oblique;
+  border-radius: 75px;
+}
+
+.intro a:hover{
+  text-shadow:2px 2px 5px #f5c970;
+  
+}
+
+.intro a{
+  color: #094c55;
+}
+
 #sale-page{
   background-color: #0E5C66;
 }

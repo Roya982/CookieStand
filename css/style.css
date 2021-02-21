@@ -3,7 +3,7 @@
 }
 #mainhr{
   text-align: center;
-  background-image: url(/img/background.jpg);
+  background-image: url(../img/background.jpg);
   height: 100px;
   background-repeat: no-repeat;
   background-size: cover;

@@ -1,10 +1,8 @@
-General project information (this project is a sale branding and internal data management,  building an application that calculates daily sales projections for each location , and creating a public-facing page  that is colorful, eye-catching, readable, useful, and informative.
+# cookieStand 
 
-It's written by Roya Alakayleh who is me and I'm still beginner.
+it's a web page that I've designed under the order of a friend to manage his sales incomes and out comes and to allow the user to input a potential of a branch in his/her living location, this friend is called pat and his project is a salmon cookie shope 
 
-I am paired with 
-
-I use JavaScript language, CSS, and It's an HTML.
+this web page is functioning via JavaScript and was designed using CSS
 
 MIT License
 

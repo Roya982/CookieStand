@@ -90,7 +90,6 @@ function renderFooterTotals(){
     tableHeadingEl.textContent = Math.ceil(totalTotals[i]);
   }
 }
-renderHeader();
 const newSales = document.getElementById('newSales');
 newSales.addEventListener('submit', function(event){
   event.preventDefault();
@@ -100,10 +99,13 @@ newSales.addEventListener('submit', function(event){
   const average = event.target.average.value;
   const newLocation = new Sales(location,minCus,maxCus,average);
   newLocation.render();
-  renderFooterTotals();
 });
+
+renderHeader();
 seattle.render();
 tokyo.render();
 dubai.render();
 paris.render();
 lima.render();
+renderFooterTotals();
+
